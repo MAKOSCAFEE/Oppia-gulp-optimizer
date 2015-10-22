@@ -1,4 +1,4 @@
-gulp-gae
+Oppia-gulp-optimizer
 ========
 This is a customized gulp for google-app-engine experimenting to optimize the
 performance of Oppia.
