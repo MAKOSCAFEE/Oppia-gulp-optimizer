@@ -1,9 +1,7 @@
-Oppia-gulp-optimizer
+### Oppia-gulp-optimizer [![Build Status](https://travis-ci.org/MAKOSCAFEE/Oppia-gulp-optimizer.svg?branch=master)](MAKOSCAFEE/Oppia-gulp-optimizer)
 ========
 This is a customized gulp for google-app-engine experimenting to optimize the
 performance of Oppia.
-#### Oppia-gulp-optimizer [![Build Status](https://travis-ci.org/MAKOSCAFEE/Oppia-gulp-optimizer.svg?branch=master)](MAKOSCAFEE/Oppia-gulp-optimizer)
-
 
 # Usage
 ```javascript
