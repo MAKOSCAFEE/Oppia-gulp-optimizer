@@ -2,7 +2,7 @@ var gulp = require('gulp');
 // Find index.js file
 var gae = require('../');
 
-gulp.task('gae-serve', function() {
+gulp.task('gulp-serve', function() {
   gulp.src('app/app.yaml')
     .pipe(gae('dev_appserver.py', [], {
       admin_host: '0.0.0.0',
@@ -13,7 +13,7 @@ gulp.task('gae-serve', function() {
 });
 
 // Not sure if we can use this
-gulp.task('gae-deploy', function() {
+gulp.task('gulp-deploy', function() {
   gulp.src('app/app.yaml')
     .pipe(gae('appcfg.py', ['update'], {
       // For value-less parameters
@@ -22,4 +22,4 @@ gulp.task('gae-deploy', function() {
     }));
 });
 
-gulp.task('default', ['gae-serve']);
+gulp.task('default', ['gulp-serve']);

@@ -17,7 +17,7 @@ module.exports = function(action, args, params) {
   var proc;
 
   if (['dev_appserver.py', 'appcfg.py'].indexOf(action) == -1) {
-    throw new PluginError('gulp-gae', 'Invalid action ' + action +
+    throw new PluginError('oppia-gulp', 'Invalid action ' + action +
       '. Supported actions are dev_appserver.py and appcfg.py');
   }
 
@@ -46,7 +46,7 @@ module.exports = function(action, args, params) {
   };
 
   var stopScript = function() {
-    gutil.log('[gulp-gae]', 'stopping script');
+    gutil.log('[oppia-gulp]', 'stopping script');
     proc && proc.kill('SIGHUP');
     proc = null;
   };
