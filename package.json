@@ -1,5 +1,5 @@
 {
-  "name": "gulp-gae",
+  "name": "Oppia-gulp-optimizer",
   "version": "0.0.1",
   "description": "Oppia Gulp page optimizer Plugin",
   "main": "index.js",
@@ -13,10 +13,9 @@
   "keywords": [
     "gulp",
     "oppia",
-    "gae",
+    "optimizer",
     "google",
     "app",
-    "engine",
     "appengine"
   ],
   "author": "Barnabas Makonda <barnabasmakonda@gmail.com>",
