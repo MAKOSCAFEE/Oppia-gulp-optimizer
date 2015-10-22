@@ -4,7 +4,7 @@
   "description": "Oppia Gulp page optimizer Plugin",
   "main": "index.js",
   "scripts": {
-    "lint": "jscs test/"
+    "lint": "jscs example/"
   },
   "repository": {
     "type": "git",
