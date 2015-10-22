@@ -1,34 +1,37 @@
 {
   "name": "gulp-gae",
-  "version": "0.0.3",
-  "description": "Gulp Google App Engine Plugin",
+  "version": "0.0.1",
+  "description": "Oppia Gulp page optimizer Plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maciejzasada/gulp-gae.git"
+    "url": "git+https://github.com:MAKOSCAFEE/Oppia-gulp-optimizer.git"
   },
   "keywords": [
     "gulp",
+    "oppia",
     "gae",
     "google",
     "app",
     "engine",
     "appengine"
   ],
-  "author": "Maciej Zasada <hello@maciejzasada.com>",
+  "author": "Barnabas Makonda <barnabasmakonda@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maciejzasada/gulp-gae/issues"
+    "url": "https://github.com:MAKOSCAFEE/Oppia-gulp-optimizer/issues"
   },
-  "homepage": "https://github.com/maciejzasada/gulp-gae#readme",
+  "homepage": "https://github.com:MAKOSCAFEE/Oppia-gulp-optimizer#readme",
   "devDependencies": {
     "gulp": "^3.9.0"
   },
   "dependencies": {
+    "coveralls": "^2.7.0",
     "gulp-util": "^3.0.6",
-    "through2": "^2.0.0"
+    "through2": "^2.0.0",
+    "jscs": "^2.3.5",
   }
 }
