@@ -1,6 +1,6 @@
 {
-  "name": "Oppia-gulp-optimizer",
-  "version": "0.0.1",
+  "name": "oppia-gulp",
+  "version": "0.0.11",
   "description": "Oppia Gulp page optimizer Plugin",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:MAKOSCAFEE/Oppia-gulp-optimizer.git"
+    "url": "https://github.com/MAKOSCAFEE/Oppia-gulp-optimizer.git"
   },
   "keywords": [
     "gulp",

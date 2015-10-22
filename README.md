@@ -22,4 +22,4 @@ gulp.task('default', ['gae-serve']);
 
 ```
 
-For a working example see the `test` folder.
+For a working example see the `example` folder.
