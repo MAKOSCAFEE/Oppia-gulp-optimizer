@@ -1,6 +1,6 @@
 {
   "name": "oppia-gulp",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "Oppia Gulp page optimizer Plugin",
   "main": "index.js",
   "scripts": {
